@@ -1,0 +1,82 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.heading {
+    font-weight: 300;
+    padding: 25px 0px 20px 0px;
+}
+
+.headingTime {
+    font-size: 13px;
+    font-weight: 500;
+    color: #a39f9f;
+}
+
+/* .main {
+    background-color:aqua;
+} */
+
+.horizontalHourSeparator {
+    width: 67%;
+    left: 155px;
+    position: absolute;
+    color:#6862629c;
+    margin-left: 50px;
+    opacity: 0.33;
+}
+
+.timeSectionStyle {
+    padding: 0px 50px 0px 30px;
+    height: 120px;
+}
+
+.timeLabelHour {
+    text-align: right;
+    width: 5%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.timeLabelHalfHour {
+    text-align: right;
+    width: 5%;
+    font-size: 13px;
+}
+
+/*To show in the same column*/
+.timeLabelHour, .timeLabelHalfHour {
+    position: absolute;
+    color: #7c7272;
+    padding-right: 5px;
+}
+
+.firstPartStyle {
+    /*Added using bootstrap class in JS code itself*/
+    /* display: flex; */
+}
+
+/*To show on the right of timeLabel*/
+.timeContentStyle {
+    width: 100%;
+    margin-left: 60px;
+    position: relative;
+}
+
+/* Or the style of class timeContentStyle can be this:
+    .timeContentStyle {
+    width: 73%;
+    margin-left: 60px;
+    position: absolute;
+} */
+
+.titleBlockStyle {
+    padding-left: 12px;
+    font-size: 12px;
+    position: absolute;
+    background-color:#e3eaf1; 
+    border-left: 2px solid #3092ee;    
+}
